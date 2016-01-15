@@ -1,0 +1,20 @@
+{
+  "name": "gw2-events",
+  "version": "0.1",
+  "description": "Guild Wars 2 Events",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha test --timeout=100000"
+  },
+  "dependencies": {
+    "underscore": "^1.8.3"
+  },
+  "keywords": [
+    "gw2"
+  ],
+  "author": "jrbeeman",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^2.3.4"
+  }
+}
