@@ -4,6 +4,7 @@
         "zone": "Bloodtide Coast",
         "area": "Laughing Gull Island",
         "waypointLink": "[&BKgBAAA=]",
+        "hardcore": 0,
         "wikiLink": "https://wiki.guildwars2.com/wiki/Kill_Admiral_Taidha_Covington"
     },
     {
@@ -11,7 +12,7 @@
         "zone": "Sparkfly Fen",
         "area": "Splintered Coast",
         "waypointLink": "[&BNABAAA=]",
-        "hardcore": "X",
+        "hardcore": 1,
         "wikiLink": "https://wiki.guildwars2.com/wiki/Defeat_Tequatl_the_Sunless"
     },
     {
@@ -19,6 +20,7 @@
         "zone": "Wayfarer Foothills",
         "area": "Hunter's Lake",
         "waypointLink": "[&BMIDAAA=]",
+        "hardcore": 0,
         "wikiLink": "https://wiki.guildwars2.com/wiki/Kill_the_Svanir_shaman_chief_to_break_his_control_over_the_ice_elemental"
     },
     {
@@ -26,6 +28,7 @@
         "zone": "Mount Maelstrom",
         "area": "Maelstrom's Bile",
         "waypointLink": "[&BM0CAAA=]",
+        "hardcore": 0,
         "wikiLink": "https://wiki.guildwars2.com/wiki/Kill_the_megadestroyer_before_it_blows_everyone_up"
     },
     {
@@ -33,6 +36,7 @@
         "zone": "Metrica Province",
         "area": "Thaumanova Reactor",
         "waypointLink": "[&BEcAAAA=]",
+        "hardcore": 0,
         "wikiLink": "https://wiki.guildwars2.com/wiki/Destroy_the_fire_elemental_created_from_chaotic_energy_fusing_with_the_C.L.E.A.N._5000's_energy_core"
     },
     {
@@ -40,6 +44,7 @@
         "zone": "Blazeridge Steppes",
         "area": "Lowland Burns",
         "waypointLink": "[&BE4DAAA=]",
+        "hardcore": 0,
         "wikiLink": "https://wiki.guildwars2.com/wiki/Slay_the_Shatterer"
     },
     {
@@ -47,7 +52,7 @@
         "zone": "Bloodtide Coast",
         "area": "Firth of Revanion",
         "waypointLink": "[&BKoBAAA=]",
-        "hardcore": "X",
+        "hardcore": 1,
         "wikiLink": "https://wiki.guildwars2.com/wiki/Defeat_the_amber_head_of_the_great_jungle_wurm"
     },
     {
@@ -55,6 +60,7 @@
         "zone": "Caledon Forest",
         "area": "Wychmire Swamp",
         "waypointLink": "[&BEEFAAA=]",
+        "hardcore": 0,
         "wikiLink": "https://wiki.guildwars2.com/wiki/Defeat_the_great_jungle_wurm"
     },
     {
@@ -62,6 +68,7 @@
         "zone": "Harathi Hinterlands",
         "area": "Modniir Gorge",
         "waypointLink": "[&BLAAAAA=]",
+        "hardcore": 0,
         "wikiLink": "https://wiki.guildwars2.com/wiki/Defeat_Ulgoth_the_Modniir_and_his_minions"
     },
     {
@@ -69,6 +76,7 @@
         "zone": "Queensdale",
         "area": "Godslost Swamp",
         "waypointLink": "[&BPcAAAA=]",
+        "hardcore": 0,
         "wikiLink": "https://wiki.guildwars2.com/wiki/Defeat_the_shadow_behemoth"
     },
     {
@@ -76,6 +84,7 @@
         "zone": "Mount Maelstrom",
         "area": "Whitland Flats",
         "waypointLink": "[&BNQCAAA=]",
+        "hardcore": 0,
         "wikiLink": "https://wiki.guildwars2.com/wiki/Defeat_the_Inquest%27s_golem_Mark_II"
     },
     {
@@ -83,7 +92,7 @@
         "zone": "Southsun Cove",
         "area": "Driftglass Springs",
         "waypointLink": "[&BNUGAAA=]",
-        "hardcore": "X",
+        "hardcore": 1,
         "wikiLink": "https://wiki.guildwars2.com/wiki/Defeat_the_Karka_Queen_threatening_the_settlements"
     },
     {
@@ -91,6 +100,7 @@
         "zone": "Frostgorge Sound",
         "area": "Frostwalk Tundra",
         "waypointLink": "[&BHoCAAA=]",
+        "hardcore": 0,
         "wikiLink": "https://wiki.guildwars2.com/wiki/Defeat_the_Claw_of_Jormag"
     }
 ]
