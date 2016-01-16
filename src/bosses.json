@@ -1,13 +1,13 @@
 [
     {
-        "boss": "Admiral Taidha Covington",
+        "worldBoss": "Admiral Taidha Covington",
         "zone": "Bloodtide Coast",
         "area": "Laughing Gull Island",
         "waypointLink": "[&BKgBAAA=]",
         "wikiLink": "https://wiki.guildwars2.com/wiki/Kill_Admiral_Taidha_Covington"
     },
     {
-        "boss": "Tequatl the Sunless",
+        "worldBoss": "Tequatl the Sunless",
         "zone": "Sparkfly Fen",
         "area": "Splintered Coast",
         "waypointLink": "[&BNABAAA=]",
@@ -15,35 +15,35 @@
         "wikiLink": "https://wiki.guildwars2.com/wiki/Defeat_Tequatl_the_Sunless"
     },
     {
-        "boss": "Svanir Shaman Chief",
+        "worldBoss": "Svanir Shaman Chief",
         "zone": "Wayfarer Foothills",
         "area": "Hunter's Lake",
         "waypointLink": "[&BMIDAAA=]",
         "wikiLink": "https://wiki.guildwars2.com/wiki/Kill_the_Svanir_shaman_chief_to_break_his_control_over_the_ice_elemental"
     },
     {
-        "boss": "Megadestroyer",
+        "worldBoss": "Megadestroyer",
         "zone": "Mount Maelstrom",
         "area": "Maelstrom's Bile",
         "waypointLink": "[&BM0CAAA=]",
         "wikiLink": "https://wiki.guildwars2.com/wiki/Kill_the_megadestroyer_before_it_blows_everyone_up"
     },
     {
-        "boss": "Fire Elemental",
+        "worldBoss": "Fire Elemental",
         "zone": "Metrica Province",
         "area": "Thaumanova Reactor",
         "waypointLink": "[&BEcAAAA=]",
         "wikiLink": "https://wiki.guildwars2.com/wiki/Destroy_the_fire_elemental_created_from_chaotic_energy_fusing_with_the_C.L.E.A.N._5000's_energy_core"
     },
     {
-        "boss": "The Shatterer",
+        "worldBoss": "The Shatterer",
         "zone": "Blazeridge Steppes",
         "area": "Lowland Burns",
         "waypointLink": "[&BE4DAAA=]",
         "wikiLink": "https://wiki.guildwars2.com/wiki/Slay_the_Shatterer"
     },
     {
-        "boss": "Evolved Jungle Wurm",
+        "worldBoss": "Evolved Jungle Wurm",
         "zone": "Bloodtide Coast",
         "area": "Firth of Revanion",
         "waypointLink": "[&BKoBAAA=]",
@@ -51,35 +51,35 @@
         "wikiLink": "https://wiki.guildwars2.com/wiki/Defeat_the_amber_head_of_the_great_jungle_wurm"
     },
     {
-        "boss": "Great Jungle Wurm",
+        "worldBoss": "Great Jungle Wurm",
         "zone": "Caledon Forest",
         "area": "Wychmire Swamp",
         "waypointLink": "[&BEEFAAA=]",
         "wikiLink": "https://wiki.guildwars2.com/wiki/Defeat_the_great_jungle_wurm"
     },
     {
-        "boss": "Modniir Ulgoth",
+        "worldBoss": "Modniir Ulgoth",
         "zone": "Harathi Hinterlands",
         "area": "Modniir Gorge",
         "waypointLink": "[&BLAAAAA=]",
         "wikiLink": "https://wiki.guildwars2.com/wiki/Defeat_Ulgoth_the_Modniir_and_his_minions"
     },
     {
-        "boss": "Shadow Behemoth",
+        "worldBoss": "Shadow Behemoth",
         "zone": "Queensdale",
         "area": "Godslost Swamp",
         "waypointLink": "[&BPcAAAA=]",
         "wikiLink": "https://wiki.guildwars2.com/wiki/Defeat_the_shadow_behemoth"
     },
     {
-        "boss": "Golem Mark II",
+        "worldBoss": "Golem Mark II",
         "zone": "Mount Maelstrom",
         "area": "Whitland Flats",
         "waypointLink": "[&BNQCAAA=]",
         "wikiLink": "https://wiki.guildwars2.com/wiki/Defeat_the_Inquest%27s_golem_Mark_II"
     },
     {
-        "boss": "Karka Queen",
+        "worldBoss": "Karka Queen",
         "zone": "Southsun Cove",
         "area": "Driftglass Springs",
         "waypointLink": "[&BNUGAAA=]",
@@ -87,7 +87,7 @@
         "wikiLink": "https://wiki.guildwars2.com/wiki/Defeat_the_Karka_Queen_threatening_the_settlements"
     },
     {
-        "boss": "Claw of Jormag",
+        "worldBoss": "Claw of Jormag",
         "zone": "Frostgorge Sound",
         "area": "Frostwalk Tundra",
         "waypointLink": "[&BHoCAAA=]",

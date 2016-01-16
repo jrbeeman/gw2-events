@@ -15,6 +15,10 @@ describe('GW2Events', function () {
       assert.equal(api.getBosses().length > 0, true);
     });
 
+    it('Should return a combined list of events with extended boss metadata', function () {
+      assert.equal(api.getEventsFull().length > 0, true);
+    });
+
   });
 
 });

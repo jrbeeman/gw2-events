@@ -41,15 +41,24 @@ GW2Events.prototype = {
   /**
    * List upcoming events with full boss metadata.
    *
-   * @param {string} sortBy
-   *   Property by which to sort the events, e.g. eventTime.
-   * @param {string} direction
-   *   The direction by which to sort the events (DESC or ASC).
    * @return {Array}
    *   World events with boss metadata.
    */
-  getEventsFull : function (sortBy, direction) {
+  getEventsFull : function (sortBy, descending) {
+    events = this.getEvents();
+    bosses = this.getBosses();
 
+    for (var i in events) {
+      var event = events[i];
+      for (var j in bosses) {
+        boss = bosses[j];
+        if (event.worldBoss == boss.worldBoss) {
+          events[i] = _.extend(event, boss);
+        }
+      }
+    }
+
+    return events;
   },
 
 }
