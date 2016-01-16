@@ -1,3 +1,4 @@
+var fs = require("fs");
 var _ = require('underscore');
 
 /**
@@ -10,8 +11,8 @@ var GW2Events = function () {}
 
 GW2Events.prototype = {
 
-  eventsUri: 'events.json',
-  bossesUri: 'bosses.json',
+  eventsUri: './src/events.json',
+  bossesUri: './src/bosses.json',
 
   /**
    * Load world events.
@@ -20,7 +21,9 @@ GW2Events.prototype = {
    *   World events.
    */
   getEvents : function () {
-
+    var file = fs.readFileSync(this.eventsUri);
+    var items = JSON.parse(file);
+    return items;
   },
 
   /**
@@ -30,7 +33,9 @@ GW2Events.prototype = {
    *   World bosses.
    */
   getBosses : function () {
-
+    var file = fs.readFileSync(this.bossesUri);
+    var items = JSON.parse(file);
+    return items;
   },
 
   /**
@@ -48,3 +53,5 @@ GW2Events.prototype = {
   },
 
 }
+
+module.exports = GW2Events;
