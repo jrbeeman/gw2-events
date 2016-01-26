@@ -1,6 +1,6 @@
 {
   "name": "gw2-events",
-  "version": "0.9",
+  "version": "1.0.0",
   "description": "Guild Wars 2 Events",
   "main": "index.js",
   "scripts": {
