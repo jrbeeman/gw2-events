@@ -11,8 +11,8 @@ var GW2Events = function () {}
 
 GW2Events.prototype = {
 
-  eventsUri: './src/events.json',
-  bossesUri: './src/bosses.json',
+  eventsUri: '/events.json',
+  bossesUri: '/bosses.json',
 
   /**
    * Load world events.
@@ -21,7 +21,7 @@ GW2Events.prototype = {
    *   World events.
    */
   getEvents : function () {
-    var file = fs.readFileSync(this.eventsUri);
+    var file = fs.readFileSync(__dirname + this.eventsUri);
     var items = JSON.parse(file);
     return items;
   },
@@ -33,7 +33,7 @@ GW2Events.prototype = {
    *   World bosses.
    */
   getBosses : function () {
-    var file = fs.readFileSync(this.bossesUri);
+    var file = fs.readFileSync(__dirname + this.bossesUri);
     var items = JSON.parse(file);
     return items;
   },
@@ -44,7 +44,7 @@ GW2Events.prototype = {
    * @return {Array}
    *   World events with boss metadata.
    */
-  getEventsFull : function (sortBy, descending) {
+  getEventsFull : function () {
     events = this.getEvents();
     bosses = this.getBosses();
 
