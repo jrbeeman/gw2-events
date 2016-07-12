@@ -1,4 +1,5 @@
 var fs = require("fs");
+var moment = require('moment')
 var _ = require('underscore');
 
 /**
@@ -49,6 +50,9 @@ GW2Events.prototype = {
     bosses = this.getBosses();
 
     for (var i in events) {
+      // Normalize start time to unixtime.
+      events[i].unixtime = moment(events[i].eventTime, "HH:mm z").utc().unix()
+      // Extend event with boss info.
       var event = events[i];
       for (var j in bosses) {
         boss = bosses[j];
