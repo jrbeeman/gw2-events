@@ -13,6 +13,9 @@
   "keywords": [
     "gw2"
   ],
+  "browserify": {
+    "transform": ["brfs"]
+  },
   "author": "jrbeeman",
   "license": "ISC",
   "devDependencies": {
