@@ -19,6 +19,8 @@ describe('GW2Events', function () {
       assert.equal(api.getEventsFull().length > 0, true);
     });
 
+    // TODO: Add test to assert that time converts properly to local timezone.
+
   });
 
 });

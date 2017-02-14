@@ -7,7 +7,8 @@
     "test": "./node_modules/mocha/bin/mocha test --timeout=100000"
   },
   "dependencies": {
-    "moment": "^2.11.1",
+    "moment": "^2.17.1",
+    "moment-timezone": "^0.5.11",
     "underscore": "^1.8.3"
   },
   "keywords": [
