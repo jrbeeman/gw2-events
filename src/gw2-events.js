@@ -54,7 +54,7 @@ GW2Events.prototype = {
       // Extend event with boss info.
       var event = events[i];
       for (var j in bosses) {
-        boss = bosses[j];
+        let boss = bosses[j];
         if (event.worldBoss == boss.worldBoss) {
           events[i] = _.extend(event, boss);
         }
