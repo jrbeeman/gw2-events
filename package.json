@@ -4,7 +4,7 @@
   "description": "Guild Wars 2 Events",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/mocha/bin/mocha test --timeout=100000"
+    "test": "mocha test --timeout=100000"
   },
   "dependencies": {
     "moment": "^2.17.1",
@@ -15,11 +15,13 @@
     "gw2"
   ],
   "browserify": {
-    "transform": ["brfs"]
+    "transform": [
+      "brfs"
+    ]
   },
   "author": "jrbeeman",
   "license": "ISC",
   "devDependencies": {
-    "mocha": "^2.3.4"
+    "mocha": "^10.3.0"
   }
 }
